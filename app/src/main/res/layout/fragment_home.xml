@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="CGPA : "
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/home_total_cgpa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Completed course : "
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/home_completed_course"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Credit : "
+                android:textSize="25sp"
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/home_total_credit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0.0"
+                android:textSize="25sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/overview"
+            android:title="Overview" />
+        <item
+            android:id="@+id/nav_add_grade"
+            android:icon="@drawable/add"
+            android:title="Add Grade" />
+        <item
+            android:id="@+id/nav_show_grades"
+            android:icon="@drawable/show_grade"
+            android:title="Course Details" />
+        <item
+            android:id="@+id/nav_progress_graph"
+            android:icon="@drawable/graph"
+            android:title="Progress Graph" />
+    </group>
+
+    <item android:title="Connect with us">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/about_us"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback"
+                android:title="feedback" />
+        </menu>
+    </item>
+
+</menu>
